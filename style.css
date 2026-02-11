@@ -1,0 +1,54 @@
+.card {
+    background: #9b502a;
+background: linear-gradient(85deg, rgba(155, 80, 42, 1) 100%, rgba(199, 162, 87, 0.3) 100%); ;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin: 16px;
+    width: 250px;
+    height: 350px;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+
+}
+img{
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+ul{
+    list-style-type: none;
+    padding: 0; 
+}
+.footer {
+    background-color: white;
+    height:130px;
+    width:100%;
+    position:absolute;
+bottom: 0;
+left: 0;;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+body {
+    background-color:black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+h2{
+    margin-bottom: 0;
+    padding: 0;;
+}
